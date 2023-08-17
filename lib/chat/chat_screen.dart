@@ -62,8 +62,7 @@ class _TikTokChatState extends State<TikTokChat> {
     setState(() {
       _showEmoji = !_showEmoji;
       if (_showEmoji) {
-        _inputFocusNode
-            .unfocus(); // Unfocus the input field when showing emoji picker
+        _inputFocusNode.unfocus();
       }
     });
   }
